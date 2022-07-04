@@ -1,14 +1,14 @@
 let fs = require('fs')                    //CREATOR = GEMPY , DEVBOT
 let chalk = require('chalk')
 global.owner = [
-  ['6287898307350'],
-  ['66287898307350'],
-  ['6287898307350', 'gempy', true]  
+  ['6281285578808'],
+  ['6281285578808'],
+  ['6281285578808', 'Andii', true]  
   
 ] 
-global.ownername = [['Gempy']]
-global.namabot = [['PENTABOT']]
-global.ownerinsta = [['@gmpyyy']]
+global.ownername = [['𝕭𝖔𝖙 • Andii あ⁩-ᴍᴅ᭄']]
+global.namabot = [['𝕭𝖔𝖙 • Andii あ⁩-ᴍᴅ᭄']]
+global.ownerinsta = [['@𝕭𝖔𝖙 • Andii あ⁩-ᴍᴅ᭄']]
 global.mods = [] 
 global.prems = [] 
 
@@ -43,8 +43,8 @@ process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = 0
 const spack = fs.readFileSync("lib/exif.json")
 const stickerpack = JSON.parse(spack)
 if (stickerpack.spackname == '') {
-  var sticker_name = 'PENTABOT'
-  var sticker_author = 'By GEMPY'
+  var sticker_name = '𝕭𝖔𝖙 • Andii あ⁩-ᴍᴅ᭄'
+  var sticker_author = 'By 𝕭𝖔𝖙 • Andii あ⁩-ᴍᴅ᭄'
 } else {
   var sticker_name = stickerpack.spackname
   var sticker_author = stickerpack.sauthor
@@ -61,7 +61,7 @@ fs.watchFile(file_exif, () => {
 // Sticker WM
 global.packname = sticker_name
 global.author = sticker_author
-global.wm = 'Created by Gempy'
+global.wm = 'Created by 𝕭𝖔𝖙 • Andii あ⁩-ᴍᴅ᭄'
 
 global.multiplier = 1000 // The higher, The harder levelup
 
