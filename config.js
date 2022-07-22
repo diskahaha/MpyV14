@@ -1,9 +1,9 @@
 let fs = require('fs')                    //CREATOR = GEMPY , DEVBOT
 let chalk = require('chalk')
 global.owner = [
-  ['6281285578808'],
-  ['6281285578808'],
-  ['6281285578808', 'Andii', true]  
+  ['97696433037'],
+  ['6282122087672'],
+  ['97696433037', 'Andii', true]  
   
 ] 
 global.ownername = [['𝕭𝖔𝖙 • Andii あ⁩-ᴍᴅ᭄']]
@@ -59,8 +59,8 @@ fs.watchFile(file_exif, () => {
 })
 
 // Sticker WM
-global.packname = sticker_name
-global.author = sticker_author
+global.packname = F
+global.author = 𝕭𝖔𝖙 • Andii
 global.wm = 'Created by 𝕭𝖔𝖙 • Andii ༢࿔ྀ'
 
 global.multiplier = 1000 // The higher, The harder levelup
